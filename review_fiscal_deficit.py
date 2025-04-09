@@ -6,8 +6,8 @@ from datetime import datetime
 
 # ---------- CONFIG ----------
 st.set_page_config(page_title="Fiscal Deficit Review", layout="wide")
-DATA_PATH = "../fiscal_deficit_results_sampled.json"
-SAVE_PATH = "../fiscal_deficit_review_results.csv"
+DATA_PATH = "./fiscal_deficit_results_sampled.json"
+SAVE_PATH = "./fiscal_deficit_review_results.csv"
 
 # ---------- CUSTOM CSS ----------
 st.markdown(
